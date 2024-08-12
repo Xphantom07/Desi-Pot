@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#eec386;
+    }
+
+header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#E64833;
+    text-align:center;
+    height:60px;
+    font-size:40;
+}   
+
+main{
+    background-color:#d98e3e;
+}
+
+.navigation{
+    font-size: 22;
+    text-align:right;
+    padding-right: 42px;
+}
+   
+ .n1{
+    border-top:#E64833 solid;
+    border-bottom: black solid ;
+    border-left: black solid;
+    border-radius: 2px;
+    background-color: #E64833;
+    border-bottom-left-radius: 12px;
+    text-decoration: none;
+    color:#69055c
+
+}
+.n1:hover{
+    background-color: #c61a03;
+    color:black;
+    border-width: 5;
+}
+
+
+.search{    
+    width:350px;
+    height: 30px;
+    border:gray solid;
+    border-radius: 13px;
+    font-size: 15;
+}
+.search:hover{
+    border:#2c2828 solid ;
+    font-size: 11;
+
+}
+ 
+h1{
+    margin-left: 20%;
+    margin-right:20%;
+    border-bottom:dashed;
+    text-align:center;
+    color:#2e3404
+}
+h2{
+    padding-left: 62px;
+    font-size: 30;
+}
+h3{
+    font-size:27;
+}
+
+h4{
+    font-size:22;
+    margin-right: 35px;
+    text-align: right;
+}
+.contact{
+    margin-left: 70px;
+    width:40%;
+    float:left
+}
+.feedback{
+    width:20%;
+    float: left;
+    font-size: 25;
+    margin-left: 50px;
+}
+.sbuttond{
+    display: flex;
+    justify-content: center;
+}
+.sbutton{
+    height: 30;
+    width:400px;
+    font-size: large;
+    background-color: #07b696;
+    border-radius: 3px;
+
+}
+.sbutton:hover{
+    background-color:#dd5921 ;
+    border-radius: 6px;
+}
+
+
+.cl{
+    clear:both;
+}
+.container_dpot{
+    width:20%;
+    float:left;
+}
+.container_ga{
+    width:25%;
+    float:left;
+}
+.soffers{
+    width:16%;
+    float:left;
+}
+.fsize{
+    font-size:30;
+}
+.fsize2{
+    font-size: 28;
+    background-color: #b9562c;
+    margin-right: 50%;
+    border:solid black;
+    border-radius: 2px;
+}
+.fsize2:hover{
+    font-size: 30;
+    background-color: #a11d02;
+    border-radius: 5px;
+}
+.logo{
+    width:12%;
+    float:left;
+}
+.Client{
+    width:20%;
+    float:right;
+}
+
+.pre{
+    width:40%;
+    float:left;
+    font-size:20;
+    margin-left:50px;
+
+}
+.vmg{
+    width:28%;
+    float:left;
+
+}
+.team{
+    width:18%;
+    float:left; 
+}
+button{
+    background-color: #e63727;
+    height:35;
+    width:120;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #961a04;
+    border-radius: 5px;
+}
+.image{
+    width:25%;
+    float:left;
+    font-size: 30;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;  
+     display: flex;
+     flex-wrap: wrap; 
+}
+
+footer{
+    font-size: 40;
+    text-align: center;
+    background-color: #a2a807;
+}
